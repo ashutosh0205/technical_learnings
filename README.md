@@ -1,10 +1,6 @@
-# technical_learnings
+# Day to Day Hacks
 
-
-## Spring
-
-
-## VS Code
+## VS Code / Angular
 
 ### Disabling Security in Launch.json configuration
 
@@ -18,3 +14,20 @@
                  "--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure"
             ],
 ```
+
+
+
+
+
+# Online References
+
+## Java Spring etc
+
+### Spring K8s docker deployment
+Buildpack - Maven plugin to create docker images
+https://bell-sw.com/blog/how-to-use-buildpacks-with-spring-boot/
+
+Tilt - https://docs.tilt.dev/
+Kubernetes for Prod, Tilt for Dev. They (Tilt team) saying it can spin up all services on a new environment with one command like tilt up.
+kind of like teraform but for local development like lightweight.
+
